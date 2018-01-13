@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bumi Desa</string>
+    <string name="selamat_datang_di">Selamat datang di</string>
+    <string name="mulai">Mulai</string>
+    <string name="sudah_memiliki_akun">Sudah memiliki akun?</string>
+    <string name="login_disini">login disini</string>
+</resources>
