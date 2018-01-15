@@ -4,7 +4,9 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorSplash">#f70004</color>
-    <color name="colorButtonSplash">#458419</color>
+    <color name="colorButtonSplash">#599c2a</color>
+    <color name="line">#acacac</color>
     <color name="colorBlack">#000</color>
     <color name="colorWhite">#fff</color>
+    <color name="colorBottombarOn">#f7323c</color>
 </resources>

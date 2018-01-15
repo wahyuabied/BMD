@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tab>
+    <tab
+        id="@+id/home"
+        icon="@drawable/ic_home"
+        activeColor="@color/colorBottombarOn"
+        titleSize="@dimen/_6sdp"
+        title="Home"/>
+    <tab
+        id="@+id/search"
+        icon="@drawable/ic_search"
+        activeColor="@color/colorBottombarOn"
+        titleSize="@dimen/_6sdp"
+        title="Search"/>
+    <tab
+        id="@+id/product"
+        icon="@drawable/ic_product"
+        activeColor="@color/colorBottombarOn"
+        titleSize="@dimen/_6sdp"
+        title="Product"/>
+    <tab
+        id="@+id/profil"
+        icon="@drawable/ic_profil"
+        activeColor="@color/colorBottombarOn"
+        titleSize="@dimen/_6sdp"
+        title="Profil"/>
+    <tab
+        id="@+id/lainnya"
+        icon="@drawable/ic_lainnya"
+        activeColor="@color/colorBottombarOn"
+        titleSize="@dimen/_6sdp"
+        title="Lainnya"/>
+</Tab>

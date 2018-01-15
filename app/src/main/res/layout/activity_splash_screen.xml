@@ -16,7 +16,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/_170sdp"
             android:layout_marginTop="-40dp"
             android:background="@drawable/splash">
 
@@ -25,7 +25,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="@dimen/_45sdp"
             android:text="@string/selamat_datang_di"
             android:textAlignment="center"
             android:textColor="@color/colorBlack"
@@ -37,25 +37,26 @@
             android:text="@string/app_name"
             android:textAlignment="center"
             android:textStyle="bold"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/_5sdp"
             android:textColor="@color/colorBlack"
             android:textSize="28sp"/>
 
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
             android:layout_gravity="center_horizontal">
             <ImageButton
-                android:clickable="true"
-                android:focusable="true"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:layout_width="200dp"
+                android:clickable="false"
+                android:layout_width="@dimen/_170sdp"
                 android:background="@drawable/button_splash"
-                android:layout_height="60dp" />
+                android:layout_height="@dimen/_50sdp" />
             <TextView
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="60dp"
+                android:layout_marginLeft="@dimen/_50sdp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tv_mulai_splashScreen"
@@ -69,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@+id/tv_mulai_splashScreen"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="@dimen/_5sdp"
                 android:src="@drawable/ic_arrow_forward"/>
         </RelativeLayout>
 
@@ -83,7 +84,7 @@
             android:textAlignment="center"
             android:textColor="@color/colorBlack"
             android:layout_above="@+id/tv_login_disini"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="@dimen/_5sdp"
             android:textSize="18sp"/>
 
         <TextView
@@ -96,7 +97,7 @@
             android:textStyle="bold"
             android:textColor="@color/colorButtonSplash"
             android:textSize="18sp"
-            android:layout_marginBottom="30dp"/>
+            android:layout_marginBottom="@dimen/_20sdp"/>
 
 
 </RelativeLayout>
