@@ -1,0 +1,262 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mrabid.bumidesa.Fragment.ProfilFragment">
+
+    <TextView
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/tv_email_profil_fragment"
+            android:text="mail@mail.com"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_edit_email_fragment_profil"
+            android:layout_alignParentRight="true"
+            android:text="Ubah"
+            android:textColor="@color/colorWhite"
+            android:backgroundTint="@color/colorButtonSplash"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line"/>
+    <RelativeLayout
+        android:id="@+id/rlt_pesan_profil_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:padding="@dimen/_5sdp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:text="Pesan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingRight="@dimen/_15sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:id="@+id/btn_jumlah_pesan_fragment_profil"
+            android:text="25"
+            android:textColor="@color/colorWhite"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgv_arrow_right_pesan"
+            android:background="@drawable/bg_profil_notif"
+            android:backgroundTint="@color/colorNotifKeranjang"/>
+
+        <ImageView
+            android:id="@+id/imgv_arrow_right_pesan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_right"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line"/>
+    <RelativeLayout
+        android:id="@+id/rlt_keranjang_belanja_profil_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:padding="@dimen/_5sdp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:text="Keranjang Belanja"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingRight="@dimen/_15sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:id="@+id/btn_jumlah_kranjang_belanja_fragment_profil"
+            android:text="40"
+            android:textColor="@color/colorWhite"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgv_arrow_right_keranjang_belanja"
+            android:background="@drawable/bg_profil_notif"
+            android:backgroundTint="@color/colorNotifKeranjang"/>
+
+        <ImageView
+            android:id="@+id/imgv_arrow_right_keranjang_belanja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_right"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line"/>
+    <RelativeLayout
+        android:id="@+id/rlt_whislist_profil_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:padding="@dimen/_5sdp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:text="Whislist Produk"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingRight="@dimen/_15sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:id="@+id/btn_jumlah_whislist_fragment_profil"
+            android:text="40"
+            android:textColor="@color/colorWhite"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgv_arrow_right_whislist"
+            android:background="@drawable/bg_profil_notif"
+            android:backgroundTint="@color/colorNotifKeranjang"/>
+
+        <ImageView
+            android:id="@+id/imgv_arrow_right_whislist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_right"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line"/>
+    <RelativeLayout
+        android:id="@+id/rlt_list_vendor_profil_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:padding="@dimen/_5sdp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:text="List Vendor"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingRight="@dimen/_15sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:id="@+id/btn_jumlah_list_vendor_fragment_profil"
+            android:text="40"
+            android:textColor="@color/colorWhite"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgv_arrow_right_list_vendor"
+            android:background="@drawable/bg_profil_notif"
+            android:backgroundTint="@color/colorNotifKeranjang"/>
+
+        <ImageView
+            android:id="@+id/imgv_arrow_right_list_vendor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_right"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line"/>
+    <RelativeLayout
+        android:id="@+id/rlt_list_transaksi_profil_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:padding="@dimen/_5sdp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:text="List Transaksi"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingRight="@dimen/_15sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:id="@+id/btn_jumlah_list_transaksi_fragment_profil"
+            android:text="40"
+            android:textColor="@color/colorWhite"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgv_arrow_right_list_transaksi"
+            android:background="@drawable/bg_profil_notif"
+            android:backgroundTint="@color/colorNotifKeranjang"/>
+
+        <ImageView
+            android:id="@+id/imgv_arrow_right_list_transaksi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_right"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line"/>
+
+
+</LinearLayout>

@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class LoginActivity extends AppCompatActivity {
 
     Toolbar toolbar;
-    TextView lupaPassword;
+    TextView lupaPassword,daftar;
     Button login;
 
     @Override
@@ -24,11 +24,19 @@ public class LoginActivity extends AppCompatActivity {
         toolbar = (Toolbar)findViewById(R.id.toolbar);
         lupaPassword = (TextView)findViewById(R.id.tv_lupa_password_login_activity);
         login = (Button)findViewById(R.id.btn_login_login_activity);
+        daftar = (TextView)findViewById(R.id.tv_daftar_login_activity);
 
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Login");
 
+
+        daftar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this,RegisterActivity.class));
+            }
+        });
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override

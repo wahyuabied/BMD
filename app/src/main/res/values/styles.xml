@@ -18,4 +18,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="RatingBar" parent="AppTheme.NoActionBar">
+        <item name="android:colorControlNormal">@color/colorRatingInactive</item>
+        <item name="android:colorControlActivated">@color/colorRatingActive</item>
+    </style>
+
 </resources>

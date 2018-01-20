@@ -9,4 +9,9 @@
     <color name="colorBlack">#000</color>
     <color name="colorWhite">#fff</color>
     <color name="colorBottombarOn">#f7323c</color>
+    <color name="colorRatingActive">#ffea00</color>
+    <color name="colorRatingInactive">#beb656</color>
+    <color name="colorNotifKeranjang">#ffa33b</color>
+    <color name="hijau_arrow">#1c9c06</color>
+    <color name="colorLihat_semua">#0095f2</color>
 </resources>

@@ -25,7 +25,16 @@
             android:name=".LupaPasswordActivity"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".PesanProfilActivity" />
+        <activity
+            android:name=".EditDetailProfilActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".UbahKataSandiActivity" />
+        <activity android:name=".SyaratdanKetentuanActivity" />
+        <activity android:name=".DetailProductActivity"></activity>
     </application>
 
 </manifest>

@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/_170sdp"
             android:layout_marginTop="-40dp"
-            android:background="@drawable/splash">
+            android:background="@drawable/bg_splash">
 
         </RelativeLayout>
 
@@ -52,7 +52,7 @@
             <ImageButton
                 android:clickable="false"
                 android:layout_width="@dimen/_170sdp"
-                android:background="@drawable/button_splash"
+                android:background="@drawable/bg_button_splash"
                 android:layout_height="@dimen/_50sdp" />
             <TextView
                 android:layout_centerVertical="true"

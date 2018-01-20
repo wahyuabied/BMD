@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/lnr_list_horizontal_home"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/_10sdp">
+
+    <ImageView
+        android:id="@+id/imgv_list_horizontal_home"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_90sdp"
+        android:padding="@dimen/_1sdp"
+        android:background="@color/line"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_flower"/>
+
+    
+    <TextView
+        android:id="@+id/tv_nama_list_horizontal_home"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="12sp"
+        android:text="Nama Bunga" />
+    <TextView
+        android:id="@+id/tv_harga_list_horizontal_home"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="35000"
+        android:textColor="@color/colorSplash"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+    <RatingBar
+        android:id="@+id/rb_rating_list_horizontal_home"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/RatingBar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:stepSize="0.5"
+        android:numStars="5" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:text="nama toko"/>
+
+</LinearLayout>
+</LinearLayout>

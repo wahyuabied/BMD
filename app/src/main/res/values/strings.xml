@@ -14,6 +14,29 @@
     <string name="telepon">Nomor Handphone</string>
     <string name="ulangi">Ulangi Password</string>
     <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="alamat">Alamat</string>
+    <string name="propinsi">Propinsi</string>
+    <string name="kota">Kota/Kabupaten</string>
+    <string name="kode_pos">Kode Pos</string>
+    <string name="cari_produk">Cari produk atau toko</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="ubah_kata_sandi">Ubah kata Sandi</string>
+    <string name="syarat_dan_ketentuan">Syarat dan Ketentuan</string>
+    <string name="versi">Versi: 1.0</string>
+    <string name="keluar">Keluar</string>
+    <string name="kata_sandi_lama">Kata sandi lama :</string>
+    <string name="kata_sandi_baru">Kata sandi baru :</string>
+    <string name="simpan_kata_sandi">Simpan kata sandi</string>
+    <string name="jam_operasi">1.Jam Operasi</string>
+    <string name="isi_jam_operasi">Kami beroperasi 24 jam sehari, 7 hari seminggu Pengiriman pada Hari Libur dapat diatur sesuai dengan kebijakan pengiriman masing-masing daerah Untuk pengiriman yang mendesak, hubungi kami di nomor hotline lokal kami.</string>
+    <string name="pro_harga_dan_pem">2.Prosedur harga dan pembayaran</string>
+    <string name="isi_pro_har">Kami menerima pembayaran melalui Transfer Bank melalui Virtual Account, Visa atau Master Card Harga dapat berubah sewaktu musim perayaan seperti Hari Valentine, Tahun Baru Imlek, Hari Paskah, Hari Ibu, Idul Fitri, Natal, dan perayaan besar lainnya (harap dicatat, kenaikan harga akan ditunjukkan pada halaman checkout) Setelah pesanan berhasil, Anda akan menerima konfirmasi email Pengiriman Bunga Jabodetabek.</string>
+    <string name="waktu_peng">3.Waktu pengiriman</string>
+    <string name="isi_waktu_peng">Selama musim perayaan seperti Hari Valentine, Tahun Baru Imlek, Paskah, Hari Ibu, Idul Fitri, Natal, dan perayaan besar lainnya. Waktu pengiriman dapat dipukul namun dipastikan pesanan akan dikirim pada tanggal tertentu yang dinyatakan kecuali jika dinyatakan lain</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
