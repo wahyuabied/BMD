@@ -8,10 +8,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.mrabid.bumidesa.Modal.Pesan;
 import com.mrabid.bumidesa.R;
-
 import java.util.ArrayList;
 import java.util.List;
 

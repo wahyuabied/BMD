@@ -7,12 +7,6 @@
         titleSize="@dimen/_6sdp"
         title="Home"/>
     <tab
-        id="@+id/search"
-        icon="@drawable/ic_search"
-        activeColor="@color/colorBottombarOn"
-        titleSize="@dimen/_6sdp"
-        title="Search"/>
-    <tab
         id="@+id/product"
         icon="@drawable/ic_product"
         activeColor="@color/colorBottombarOn"

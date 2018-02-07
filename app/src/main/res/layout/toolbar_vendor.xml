@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/_4sdp"
+    app:contentInsetStart="0dp"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:titleTextAppearance="@dimen/_18sdp"
+    android:titleTextColor="@color/colorWhite" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <ImageView
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:id="@+id/imgv_back_toolbar_vendor"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/ic_arrow_back"/>
+        <TextView
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toRightOf="@+id/imgv_back_toolbar_vendor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_toolbar_vendor"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:text="List Penjual/Vendor"/>
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_35sdp"
+            android:text="hapus"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/bg_button_border_white"/>
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

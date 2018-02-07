@@ -168,6 +168,7 @@
     </RelativeLayout>
 
     <LinearLayout
+        android:id="@+id/rlt_logout_pengaturan_fragment"
         android:layout_above="@+id/rlt_versi_pengaturan_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

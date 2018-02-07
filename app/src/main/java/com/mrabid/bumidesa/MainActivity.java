@@ -1,5 +1,6 @@
 package com.mrabid.bumidesa;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.v4.app.Fragment;
@@ -9,7 +10,6 @@ import com.mrabid.bumidesa.Fragment.HomeFragment;
 import com.mrabid.bumidesa.Fragment.PengaturanFragment;
 import com.mrabid.bumidesa.Fragment.ProductFragment;
 import com.mrabid.bumidesa.Fragment.ProfilFragment;
-import com.mrabid.bumidesa.Fragment.SearchFragment;
 import com.roughike.bottombar.BottomBar;
 import com.roughike.bottombar.OnTabSelectListener;
 
@@ -30,8 +30,6 @@ public class MainActivity extends AppCompatActivity {
             public void onTabSelected(@IdRes int tabId) {
                 if(tabId == R.id.home){
                     fragment = new HomeFragment();
-                }else if(tabId == R.id.search){
-                    fragment = new SearchFragment();
                 }else if(tabId == R.id.product){
                     fragment = new ProductFragment();
                 }else if(tabId == R.id.profil){
@@ -47,6 +45,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+    }
 
 }

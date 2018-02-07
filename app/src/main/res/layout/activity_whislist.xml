@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mrabid.bumidesa.WhislistActivity">
+
+    <include
+        layout="@layout/main_toolbar"
+        android:id="@+id/toolbar"/>
+
+
+    <EditText
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/bg_button_border_grey"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/ic_search"
+        android:paddingLeft="@dimen/_10sdp"
+        android:hint="Cari whislist kamu"
+        android:layout_height="@dimen/_30sdp"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcy_whislist_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

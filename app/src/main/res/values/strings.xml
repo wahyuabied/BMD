@@ -33,10 +33,9 @@
     <string name="isi_pro_har">Kami menerima pembayaran melalui Transfer Bank melalui Virtual Account, Visa atau Master Card Harga dapat berubah sewaktu musim perayaan seperti Hari Valentine, Tahun Baru Imlek, Hari Paskah, Hari Ibu, Idul Fitri, Natal, dan perayaan besar lainnya (harap dicatat, kenaikan harga akan ditunjukkan pada halaman checkout) Setelah pesanan berhasil, Anda akan menerima konfirmasi email Pengiriman Bunga Jabodetabek.</string>
     <string name="waktu_peng">3.Waktu pengiriman</string>
     <string name="isi_waktu_peng">Selama musim perayaan seperti Hari Valentine, Tahun Baru Imlek, Paskah, Hari Ibu, Idul Fitri, Natal, dan perayaan besar lainnya. Waktu pengiriman dapat dipukul namun dipastikan pesanan akan dikirim pada tanggal tertentu yang dinyatakan kecuali jika dinyatakan lain</string>
-
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tuliskan_pesan_kamu_diini">Tuliskan pesan kamu disini</string>
+    <string name="file_type">File type: JPG/JPEG/PNG: Maximum size : 1MB</string>
+    <string name="masuk_kekeranjang">Masukkan ke keranjang</string>
 
 
 </resources>
